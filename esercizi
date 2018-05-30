@@ -1,0 +1,2 @@
+Scrivete una funzione chiamata giustif_destra che richieda una stringa s come parametro e stampi la stringa con tanti spazi iniziali da far sì che l’ultima lettera della stringa cada nella colonna 70 del display.
+Suggerimento: usate concatenamento delle stringhe e ripetizione. Inoltre, Python contiene una funzione predefinita chiamata len che restituisce la lunghezza di una stringa, ad esempio il valore di len('monty') è 5.
