@@ -9,7 +9,7 @@ def dati(raggio, angolo):
     passo_angolo = float(angolo) / numeroLati
     return lunghezzaCerchio, passo_angolo, numeroLati
 
-def arco(t, raggio, angolo, lunghezzaCerchio_prova):
+def arco(t, raggio, angolo):
     lunghezzaCerchio, passo_angolo, numeroLati = dati(raggio, angolo)
     for i in range(numeroLati):
         t.fd(lunghezzaCerchio)
@@ -27,7 +27,7 @@ def giro(t, raggio, angolo):
 def fiore(t, raggio, numeroPetali, angoloArco, angoloArco2):
     angoloCheGira = 90                #360/NumeroPetali 
     raggioCheGira = 00.0000001      #0.01
-    arco(t, raggio, angoloArco, lunghezzaChercio_prova)     #la prova e' da eliminare non sostituire 
+    arco(t, raggio, angoloArco, lunghezzaChercio)     #la prova e' da eliminare non sostituire 
     for i in range(numeroPetali):
        giro(t, raggioCheGira, angoloCheGira)
        arco(t, raggio, angoloArco2) 
@@ -42,8 +42,8 @@ x1 = p*math.cos(O2)
 y1 = p*mat.sin(O2)
 P = math.sqrt(x*x + y*y)
 p2 = math.sqrt(x1*x1 + y1*y1)
-Numeratore = 
-Denominatore =
+Numeratore = 2
+Denominatore = 3
 lunghezzaCerchio_prova = (2*math.pi*Raggio*O)/360      #Formula per sapere la lunghezza di un pezzo di cerchio (t.fd)    lunghezzaCerchio
 lunghezzaCerchio_prova2 = (2*math.pi*Raggio*O2)/360
 O = angoloArco
