@@ -10,5 +10,4 @@ def poligono(t):
         bob.lt(1.5)
 
 poligono(bob)
-poligono(bob)
 turtle.mainloop()
