@@ -1,12 +1,6 @@
 import turtle
 import math
 
-def dati(raggio, angolo):
-    circonferenza = 2 * math.pi * raggio * angolo / 360
-    numeroLati = int(circonferenza/ 7) + 1
-    lunghezzaCerchio = circonferenza / numeroLati
-    passo_angolo = float(angolo) / numeroLati
-    return lunghezzaCerchio, passo_angolo, numeroLati
 
 
 
@@ -18,13 +12,7 @@ def dati(raggio, angolo):
 
 
 def An():
-    def giro(t, raggio, angolo):
-    lunghezzaCerchio, passo_angolo, numeroLati = dati(raggio, angolo)
-    for i in range(numeroLati):
-        t.pd()
-        t.lt(passo_angolo)
-        t.fd(lunghezzaCerchio)
-
+    print (t.lt(60), t.fd(100), t.rt(60*2), t.fd(100), t.pu(), t.home(), t.lt(60), t.fd(50), t.lt(60*2), t.pd(), t.fd(50))
 
 def Bn
 
@@ -104,3 +92,10 @@ def Alfabeto():
     Xn 
     Yn
     Zn 
+
+
+
+
+
+t = turtle.Turtle()
+turtle.mainloop()
