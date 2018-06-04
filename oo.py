@@ -32,11 +32,11 @@ def fiore(t, raggio, numeroPetali, angoloArco, angoloArco2):
        giro(t, raggioCheGira, angoloCheGira)
        arco(t, raggio, angoloArco2) 
 
-NumeroPetali = 5
+NumeroPetali = 4
 Bob = turtle.Turtle()
 
-AngoloArco2 = 720/numeroPetali   #180
-AngoloArco = 360/numeroPetali   #90
+AngoloArco2 = 720/NumeroPetali   #180
+AngoloArco = 360/NumeroPetali   #90
 Raggio = 200  #influisce sulla dimensione del fiore
 
  
