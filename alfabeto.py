@@ -9,12 +9,11 @@ import math
 
 
 
-
-
 def An():
-   print (t.lt(60), t.fd(100), t.rt(60*2), t.fd(100), t.pu(), t.home(), t.lt(60), t.fd(50), t.rt(60), t.pd(), t.fd(50))
+    print (t.lt(60), t.fd(200/math.sqrt(3)), t.rt(60*2), t.fd(200/math.sqrt(3)), t.pu(), t.home(), t.lt(60), t.fd(200/math.sqrt(3)/2), t.rt(60), t.pd(), t.fd(200/math.sqrt(3)/2), t.pu(), t.home(), t.pd(), t. lt(90), t.fd(100))
 
-def Bn
+def Bn():
+    
 
 def Cn
 
