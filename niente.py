@@ -14,16 +14,18 @@ def dati(raggio, angolo):
 def giro(t, raggio, angolo):
     lunghezzaCerchio, passo_angolo, numeroLati = dati(raggio, angolo)
     for i in range(numeroLati):
-        t.pd()
         t.lt(passo_angolo)
         t.fd(lunghezzaCerchio)
 
 def giro2(t, raggio, angolo):
     lunghezzaCerchio, passo_angolo, numeroLati = dati(raggio, angolo)
+    t.rt(180)
     for i in range(numeroLati):
         t.pd()
-        t.rt(passo_angolo)
+        t.lt(passo_angolo)
         t.fd(lunghezzaCerchio)
+    t.home()
+    
 
 AngoloArco = 180
 Raggio1 = 33
