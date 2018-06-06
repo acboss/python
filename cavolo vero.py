@@ -13,7 +13,7 @@ if Risposta == "No" or Risposta == "no" :
     print (p + "Mi piace da oggi sarai il mio " + Soprannome + " personale")
     print (y + "Vabene")
     print (p + "Perfetto " + Soprannome + ", ora cosa vuoi fare?")
-if Risposta == "Si" or Risposta = "si" :
+elif Risposta == "Si" or Risposta == "si" :
     print (p + "Perfetto Gervaso, ora cosa vuoi fare?")
 else:
     print ("Risposta non valida, rispondi solo si o no")
