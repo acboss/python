@@ -40,9 +40,9 @@ raggio = 200
 lunghezzaLato = 100
 angoloArco = 90 
 
-#quadrato(bob, lunghezzaLato)
-#poligono(bob, numeroLati, lunghezzaLato)
-#arco(bob, raggio, angoloArco)
+quadrato(bob, lunghezzaLato)
+poligono(bob, numeroLati, lunghezzaLato)
+arco(bob, raggio, angoloArco)
 cerchio(bob, raggio)
 
 turtle.mainloop()
