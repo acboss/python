@@ -1,13 +1,17 @@
 import turtle
 bob = turtle.Turtle()
-bob.speed(10)
+bob.speed(0)
 
-def koch1(t,n):
+def dati(t,n):
     lunghezza = n/3
     if not (n>=3):
         t.fd(n)
         return
     angolo = 60
+    return angolo, n, lunghezza
+
+def koch1(t,n):
+    angolo, n, lunghezza = dati(t,n)
     t.fd(lunghezza)
     t.lt(angolo)
 
@@ -20,11 +24,7 @@ def koch1(t,n):
     t.fd(lunghezza)
 
 def koch2(t,n):
-    lunghezza = n/3
-    if not (n>=3):
-        t.fd(n)
-        return
-    angolo = 60
+    angolo, n, lunghezza = dati(t,n)
     koch1(t,lunghezza)
     t.lt(angolo)
 
@@ -37,11 +37,7 @@ def koch2(t,n):
     koch1(t,lunghezza)
 
 def koch3(t,n):
-    lunghezza = n/3
-    if not (n>=3):
-        t.fd(n)
-        return
-    angolo = 60
+    angolo, n, lunghezza = dati(t,n)
     koch2(t,lunghezza)
     t.lt(angolo)
 
@@ -54,11 +50,7 @@ def koch3(t,n):
     koch2(t,lunghezza)
 
 def koch4(t,n):
-    lunghezza = n/3
-    if not (n>=3):
-        t.fd(n)
-        return
-    angolo = 60
+    angolo, n, lunghezza = dati(t,n)
     koch3(t,lunghezza)
     t.lt(angolo)
 
@@ -71,11 +63,7 @@ def koch4(t,n):
     koch3(t,lunghezza)
 
 def koch5(t,n):
-    lunghezza = n/3
-    if not (n>=3):
-        t.fd(n)
-        return
-    angolo = 60
+    angolo, n, lunghezza = dati(t,n)
     koch4(t,lunghezza)
     t.lt(angolo)
 
@@ -87,8 +75,16 @@ def koch5(t,n):
 
     koch4(t,lunghezza)
 
+def fioccoDiNeve(t,lunghezza):
+    koch5 (t,lunghezza)
+    t.rt(120)
+    koch5 (t,lunghezza)
+    t.rt(120)
+    koch5 (t,lunghezza)
 
-koch5 (bob,500)
+Lunghezza = 500
+
+fioccoDiNeve(bob, Lunghezza)
 
 
 turtle.mainloop()
