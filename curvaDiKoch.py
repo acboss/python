@@ -11,7 +11,7 @@
 import turtle
 bob = turtle.Turtle()
 
-def disegna(t, n):
+def koch1 (t, n):
     lunghezza = n/3
     if not (n>=3):
         t.fd(n)
@@ -19,14 +19,43 @@ def disegna(t, n):
     angolo = 60
     t.fd(lunghezza)
     t.lt(angolo)
-    disegna(t, lunghezza)
+    koch1(t, lunghezza)
     t.rt(2*angolo)
-    disegna(t, lunghezza)
+    koch1(t, lunghezza)
     t.lt(angolo)
     t.fd(lunghezza)
 
+def koch (t, n):
+    lunghezza = n/3
+    if not (n>=3):
+        t.fd(n)
+        return
+    angolo = 60
+    t.fd(lunghezza/3)
+    t.lt(angolo)
+    koch(t, lunghezza)
+    t.rt(2*angolo)
+    koch(t, lunghezza)
+    t.lt(angolo)
+    t.fd(lunghezza/3)
+
+def koch2 (t,n):
+    lunghezza = n/3
+    if not (n>=3):
+        t.fd(n)
+        return
+    angolo = 60
+    t.fd(lunghezza/3)
+    t.lt(angolo)
+    koch(t, lunghezza/3)
+    t.rt(2*angolo)
+    koch(t, lunghezza/3)
+    t.lt(angolo)
+    t.fd(lunghezza/3)
+    
 
 
-disegna (bob,300)
+koch (bob,500)
+
 
 turtle.mainloop()
