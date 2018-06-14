@@ -76,6 +76,10 @@ def koch5(t,n):
     koch4(t,lunghezza)
 
 def fioccoDiNeve(t,lunghezza):
+    bob.pu()
+    t.setx(-(lunghezza/2))
+    t.sety(lunghezza/4)
+    t.pd()
     koch5 (t,lunghezza)
     t.rt(120)
     koch5 (t,lunghezza)
@@ -83,6 +87,7 @@ def fioccoDiNeve(t,lunghezza):
     koch5 (t,lunghezza)
 
 Lunghezza = 500
+
 
 fioccoDiNeve(bob, Lunghezza)
 
