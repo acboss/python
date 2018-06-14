@@ -1,6 +1,6 @@
-
 import turtle
 bob = turtle.Turtle()
+bob.speed(10)
 
 def koch1(t,n):
     lunghezza = n/3
@@ -18,8 +18,6 @@ def koch1(t,n):
     t.lt(angolo)
 
     t.fd(lunghezza)
-
-
 
 def koch2(t,n):
     lunghezza = n/3
@@ -88,6 +86,7 @@ def koch5(t,n):
     t.lt(angolo)
 
     koch4(t,lunghezza)
+
 
 koch5 (bob,500)
 
