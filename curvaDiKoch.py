@@ -1,17 +1,8 @@
-#1. Disegnare una curva di Koch di lunghezza x/3.
-#2. Girare a sinistra di 60 gradi.
-#3. Disegnare una curva di Koch di lunghezza x/3.
-#4. Girare a destra di 120 gradi.
-#5. Disegnare una curva di Koch di lunghezza x/3.
-#6. Girare a sinistra di 60 gradi.
-#7. Disegnare una curva di Koch di lunghezza x/3.
-#Ad eccezione di quando x è minore di 3: in questo caso si disegna una linea dritta lunga x.
-
 
 import turtle
 bob = turtle.Turtle()
 
-def koch1 (t, n):
+def koch1(t,n):
     lunghezza = n/3
     if not (n>=3):
         t.fd(n)
@@ -19,43 +10,86 @@ def koch1 (t, n):
     angolo = 60
     t.fd(lunghezza)
     t.lt(angolo)
-    koch1(t, lunghezza)
-    t.rt(2*angolo)
-    koch1(t, lunghezza)
+
+    t.fd(lunghezza)
+    t.rt(angolo*2)
+
+    t.fd(lunghezza)
     t.lt(angolo)
+
     t.fd(lunghezza)
 
-def koch (t, n):
+
+
+def koch2(t,n):
     lunghezza = n/3
     if not (n>=3):
         t.fd(n)
         return
     angolo = 60
-    t.fd(lunghezza/3)
+    koch1(t,lunghezza)
     t.lt(angolo)
-    koch(t, lunghezza)
-    t.rt(2*angolo)
-    koch(t, lunghezza)
-    t.lt(angolo)
-    t.fd(lunghezza/3)
 
-def koch2 (t,n):
+    koch1(t,lunghezza)
+    t.rt(angolo*2)
+
+    koch1(t,lunghezza)
+    t.lt(angolo)
+
+    koch1(t,lunghezza)
+
+def koch3(t,n):
     lunghezza = n/3
     if not (n>=3):
         t.fd(n)
         return
     angolo = 60
-    t.fd(lunghezza/3)
+    koch2(t,lunghezza)
     t.lt(angolo)
-    koch(t, lunghezza/3)
-    t.rt(2*angolo)
-    koch(t, lunghezza/3)
+
+    koch2(t,lunghezza)
+    t.rt(angolo*2)
+
+    koch2(t,lunghezza)
     t.lt(angolo)
-    t.fd(lunghezza/3)
-    
 
+    koch2(t,lunghezza)
 
-koch (bob,500)
+def koch4(t,n):
+    lunghezza = n/3
+    if not (n>=3):
+        t.fd(n)
+        return
+    angolo = 60
+    koch3(t,lunghezza)
+    t.lt(angolo)
+
+    koch3(t,lunghezza)
+    t.rt(angolo*2)
+
+    koch3(t,lunghezza)
+    t.lt(angolo)
+
+    koch3(t,lunghezza)
+
+def koch5(t,n):
+    lunghezza = n/3
+    if not (n>=3):
+        t.fd(n)
+        return
+    angolo = 60
+    koch4(t,lunghezza)
+    t.lt(angolo)
+
+    koch4(t,lunghezza)
+    t.rt(angolo*2)
+
+    koch4(t,lunghezza)
+    t.lt(angolo)
+
+    koch4(t,lunghezza)
+
+koch5 (bob,500)
 
 
 turtle.mainloop()
