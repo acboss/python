@@ -76,7 +76,7 @@ def koch5(t,n):
     koch4(t,lunghezza)
 
 def fioccoDiNeve(t,lunghezza):
-
+    bob.pu()
     t.goto(-(lunghezza//2),lunghezza//4)
     t.pd()
     koch5 (t,lunghezza)
