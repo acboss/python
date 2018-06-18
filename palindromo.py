@@ -1,5 +1,3 @@
-
-
 def prima(parola):
     return parola[0]
 def ultima(parola):
@@ -7,12 +5,10 @@ def ultima(parola):
 def mezzo(parola):
     return parola[1:-1]
 
-
-
 def palidromo(parola):
     if len(parola) <= 1:
         return True
-    if prima(parola) != ultima(parola):
+    if prima(parola) != ultima(parola)
         return False
     return palidromo(mezzo(parola))
 
