@@ -5,7 +5,7 @@ def ultima(parola):
 def mezzo(parola):
     return parola[1:-1]
 
-def palidromo(parola):
+def palindromo(parola):
     if len(parola) <= 1:
         return True
     if prima(parola) != ultima(parola):
@@ -14,6 +14,6 @@ def palidromo(parola):
 
 
 # ho aggiunto una stringa a ciò che stampi in modo che si capisca meglio quali parole hai analizzato per vedere se sono palindrome o meno
-print("ottetto: " + str(palidromo("ottetto")))
-print("andrea: " + str(palidromo("andrea")))
-print("otto: " + str(palidromo("otto")))
+print("ottetto: " + str(palindromo("ottetto")))
+print("andrea: " + str(palindromo("andrea")))
+print("otto: " + str(palindromo("otto")))
