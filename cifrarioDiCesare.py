@@ -20,10 +20,51 @@ def cripta(testo,numeroCheCifra):
         if cifrata == 6:
             print ('f')
         if cifrata == 7:
-            print
+            print ('g')
         if cifrata == 8:
-            print
+            print ('h')
+        if cifrata == 9:
+            print ('i')
+        if cifrata == 10:
+            print ('j')
+        if cifrata == 11:
+            print ('k')
+        if cifrata == 12:
+            print ('l')
+        if cifrata == 13:
+            print ('m')
+        if cifrata == 14:
+            print ('n')
+        if cifrata == 15:
+            print ('o')
+        if cifrata == 16:
+            print ('p')
+        if cifrata == 17:
+            print ('q')
+        if cifrata == 18:
+            print ('r')
+        if cifrata == 19:
+            print ('s')
+        if cifrata == 20:
+            print ('t')
+        if cifrata == 21:
+            print ('u')
+        if cifrata == 22:
+            print ('v')
+        if cifrata == 23:
+            print ('w')
+        if cifrata == 24:
+            print ('x')
+        if cifrata == 25:
+            print ('y')
+        if cifrata == 26:
+            print ('z')
         
+
+
+
+
+a b c d e f g h i j k l m n o p q r s t u v w x y z
 
 
 

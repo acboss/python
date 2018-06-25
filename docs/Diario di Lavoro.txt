@@ -1,0 +1,7 @@
+9:00 inizio
+9:30 lettura e analisi testo
+10:00 prove sul programma numeroMaiuscole che non svolge la sua funzione
+10:30 cercando di risolvere un problema del programma 
+11:00 ho rivisto il video del ciclo while for if elif else e i diagrammi di flusso 
+12:00 cifrario di cesare
+12.30cifrario 
