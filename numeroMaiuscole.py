@@ -1,14 +1,18 @@
 def numeroMaiuscole(parola):
-    str(parola)
+    str(parola)                      
     lunghezza = (len(parola))-1
     n = 0
-    a = parola[lunghezza]
-    if len >= 0:
-        s = a - 1
-        str.islower(s)
-        if str.islower(s) == True:
+    l = -1
+    a = parola[l]
+    while l != lunghezza:
+        l+1
+        str.islower(a)
+        if str.islower(a) == True:
             return n+1 
-        elif str.islower(s) == False:
+        elif str.islower(a) == False:
             return n
 
-print(numeroMaiuscole('CiAO'))
+
+
+
+print(numeroMaiuscole('CiAo'))
