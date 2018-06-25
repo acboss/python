@@ -3,12 +3,21 @@ def cripta(testo,numeroCheCifra):
     lunghezza = (len(testo))-1
     n = 0
     l = 0
-    if i in range (lunghezza):
-        a = parola[l]
-        numeroLettera = ord(a)
-        cifrarata = numerolettera + (numeroCheCifra)
-        if cifrata >= 27 and != (65,66,67,68,69,70,71,72,73,74,75,76,77,78,79,80,81,82,83,84,85,86,87,88,89,90):
+    if 0==0 in range (lunghezza):
+        a = testo[lunghezza]
+        numeroLettera = ord(a)       # ord trasforma la lettera in un numero
+        cifrata = numeroLettera + (numeroCheCifra)
+        if cifrata >= 91:
+            cifratajj = cifrata//90
+            togli = cifrata -(cifratajj*90)
+            cifrata = togli
             return cifrata
+        elif cifrata >= 27: 
+            cifratajj = cifrata//26
+            togli = cifrata -(cifratajj*26)
+            cifrata = togli
+            return cifrata
+       
         if cifrata == 1:
             print ('a')
         if cifrata == 2:
@@ -121,9 +130,9 @@ def cripta(testo,numeroCheCifra):
 
 
 
-a b c d e f g h i j k l m n o p q r s t u v w x y z
 
 
 
-cripta(andrea,3)
+
+cripta('andrea',3)
         
