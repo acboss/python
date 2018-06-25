@@ -6,7 +6,9 @@ def cripta(testo,numeroCheCifra):
     if i in range (lunghezza):
         a = parola[l]
         numeroLettera = ord(a)
-        cifrarata = lettera + (numeroCheCifra)
+        cifrarata = numerolettera + (numeroCheCifra)
+        if cifrata >= 27 and != (65,66,67,68,69,70,71,72,73,74,75,76,77,78,79,80,81,82,83,84,85,86,87,88,89,90):
+            return cifrata
         if cifrata == 1:
             print ('a')
         if cifrata == 2:
@@ -59,6 +61,61 @@ def cripta(testo,numeroCheCifra):
             print ('y')
         if cifrata == 26:
             print ('z')
+            
+            
+        if cifrata == 65:
+            print ('A')
+        if cifrata == 66:
+            print ('b')
+        if cifrata == 67:
+            print ('c')
+        if cifrata == 68:
+            print ('d')
+        if cifrata == 69:
+            print ('e')
+        if cifrata == 70:
+            print ('f')
+        if cifrata == 71:
+            print ('g')
+        if cifrata == 72:
+            print ('h')
+        if cifrata == 73:
+            print ('i')
+        if cifrata == 74:
+            print ('j')
+        if cifrata == 75:
+            print ('k')
+        if cifrata == 76:
+            print ('l')
+        if cifrata == 77:
+            print ('m')
+        if cifrata == 78:
+            print ('n')
+        if cifrata == 79:
+            print ('o')
+        if cifrata == 80:
+            print ('p')
+        if cifrata == 81:
+            print ('q')
+        if cifrata == 82:
+            print ('r')
+        if cifrata == 83:
+            print ('s')
+        if cifrata == 84:
+            print ('t')
+        if cifrata == 85:
+            print ('u')
+        if cifrata == 86:
+            print ('v')
+        if cifrata == 87:
+            print ('w')
+        if cifrata == 88:
+            print ('x')
+        if cifrata == 89:
+            print ('y')
+        if cifrata == 90:
+            print ('z')
+        
         
 
 
