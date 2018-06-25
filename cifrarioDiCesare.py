@@ -1,8 +1,9 @@
 def cripta(testo,numeroCheCifra):
     str(testo)
-    lunghezza = (len(testo))
+    lunghezza = (len(testo))-1
     n = 0
     l = 0
-    if i in range
+    if i in range (lunghezza):
     a = parola[l]
-    ord(a)
+    lettera = ord(a)
+    cifrarata = lettera + (numeroCheCifra)
