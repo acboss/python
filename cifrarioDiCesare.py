@@ -1,0 +1,2 @@
+def cripta(testo,numeroCheCifra):
+    
