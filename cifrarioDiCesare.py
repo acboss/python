@@ -4,7 +4,7 @@ def cripta(testo,numeroCheCifra):
     n = 0
     l = 0
     cifrata = 0
-    if 0==0 in range (lunghezza):
+    while lunghezza > -1:
         
         a = testo[lunghezza]
         numeroLettera = ord(a)       # ord trasforma la lettera in un numero
@@ -126,8 +126,10 @@ def cripta(testo,numeroCheCifra):
             print ('Y')
         if cifrata == 90:
             print ('Z')
+        lunghezza = lunghezza-1
+        if lunghezza == -1:
+            return
         
-        
 
 
 
@@ -136,5 +138,5 @@ def cripta(testo,numeroCheCifra):
 
 
 
-print(cripta('andrek',3))
+print(cripta('andrea',3))
         
