@@ -9,3 +9,9 @@
 16:00 sto studiando cosa fare e come accorciare il programma
 16:30 sto ancora studiando e non ho idea di come fare
 17:00 è alessa non riesco a capire cosa sbaglio e perchè non va ?!?
+
+
+ale susami mo mi so svegliato ho messo in carica il telefono sta notte ma non si è caricato e quindi non avevevo la sveglia
+10:00 sto ancora cercando di capire perchè non va rileggendo anche tutti i miei appunti
+10:30 vedendo la soluzione ho visto che è strutturata in modo diverso e con altri "comandi" oltre a islower
+11:00 ho visto che il islower delle lettere minuscole è errato
