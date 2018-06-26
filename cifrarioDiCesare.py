@@ -4,8 +4,8 @@ def cripta(testo,numeroCheCifra):
     n = 0
     l = 0
     cifrata = 0
+    testoCriptato = ''
     while lunghezza > -1:
-        
         a = testo[lunghezza]
         numeroLettera = ord(a)       # ord trasforma la lettera in un numero
         cifrata = numeroLettera + (numeroCheCifra)
@@ -19,124 +19,120 @@ def cripta(testo,numeroCheCifra):
                 cifratajj = cifrata//90
                 togli = cifrata -(cifratajj*90)
                 cifrata = togli
-    
+        else:
+            if (122>= cifrata =<96) or (91>= cifrata <=64):
+                testoCriptato += a
         if cifrata == 97:
-            print ('a')
+            testoCriptato +=  'a'
         if cifrata == 98:
-            print ('b')
+            testoCriptato +=  'b'
         if cifrata == 99:
-            print ('c')
+            testoCriptato +=  'c'                       
         if cifrata == 100:
-            print ('d')
+           testoCriptato +=  'd'
         if cifrata == 101:
-            print ('e')
+            testoCriptato +=  'e'
         if cifrata == 102:
-            print ('f')
+            testoCriptato +=  'f'
         if cifrata == 103:
-            print ('g')
+            testoCriptato +=  'g'
         if cifrata == 104:
-            print ('h')
+            testoCriptato +=  'h'
         if cifrata == 105:
-            print ('i')
+            testoCriptato +=  'i'
         if cifrata == 106:
-            print ('j')
+            testoCriptato +=  'j'
         if cifrata == 107:
-            print ('k')
+            testoCriptato +=  'k'
         if cifrata == 108:
-            print ('l')
+            testoCriptato +=  'l'
         if cifrata == 109:
-            print ('m')
+            testoCriptato +=  'm'
         if cifrata == 110:
-            print ('n')
+            testoCriptato +=  'n'
         if cifrata == 111:
-            print ('o')
+            testoCriptato +=  'o'
         if cifrata == 112:
-            print ('p')
+            testoCriptato +=  'p'
         if cifrata == 113:
-            print ('q')
+            testoCriptato +=  'q'
         if cifrata == 114:
-            print ('r')
+            testoCriptato +=  'r'
         if cifrata == 115:
-            print ('s')
+            testoCriptato +=  's'
         if cifrata == 116:
-            print ('t')
+            testoCriptato +=  't'
         if cifrata == 117:
-            print ('u')
+            testoCriptato +=  'u'
         if cifrata == 118:
-            print ('v')
+            testoCriptato +=  'v'
         if cifrata == 119:
-            print ('w')
+            testoCriptato +=  'w'
         if cifrata == 120:
-            print ('x')
+            testoCriptato +=  'x'
         if cifrata == 121:
-            print ('y')
+            testoCriptato +=  'y'
         if cifrata == 122:
-            print ('z')
-            
-            
+            testoCriptato +=  'z'
         if cifrata == 65:
-            print ('A')
+            testoCriptato +=  'A'
         if cifrata == 66:
-            print ('B')
+            testoCriptato +=  'B'
         if cifrata == 67:
-            print ('C')
+            testoCriptato +=  'C'
         if cifrata == 68:
-            print ('D')
+            testoCriptato +=  'D'
         if cifrata == 69:
-            print ('E')
+            testoCriptato +=  'E'
         if cifrata == 70:
-            print ('F')
+            testoCriptato +=  'F'
         if cifrata == 71:
-            print ('G')
+            testoCriptato +=  'G'
         if cifrata == 72:
-            print ('H')
+            testoCriptato +=  'H'
         if cifrata == 73:
-            print ('I')
+            testoCriptato +=  'I'
         if cifrata == 74:
-            print ('J')
+            testoCriptato +=  'J'
         if cifrata == 75:
-            print ('K')
+            testoCriptato +=  'K'
         if cifrata == 76:
-            print ('L')
+            testoCriptato +=  'L'
         if cifrata == 77:
-            print ('M')
+            testoCriptato +=  'M'
         if cifrata == 78:
-            print ('N')
+            testoCriptato +=  'N'
         if cifrata == 79:
-            print ('O')
+            testoCriptato +=  'O'
         if cifrata == 80:
-            print ('P')
+            testoCriptato +=  'P'
         if cifrata == 81:
-            print ('Q')
+            testoCriptato +=  'Q'
         if cifrata == 82:
-            print ('R')
+            testoCriptato +=  'R'
         if cifrata == 83:
-            print ('S')
+            testoCriptato +=  'S'
         if cifrata == 84:
-            print ('T')
+            testoCriptato +=  'T'
         if cifrata == 85:
-            print ('U')
+            testoCriptato +=  'U'
         if cifrata == 86:
-            print ('V')
+            testoCriptato +=  'V'
         if cifrata == 87:
-            print ('W')
+            testoCriptato +=  'W'
         if cifrata == 88:
-            print ('X')
+            testoCriptato +=  'X'
         if cifrata == 89:
-            print ('Y')
+            testoCriptato +=  'Y'
         if cifrata == 90:
-            print ('Z')
+            testoCriptato +=  'Z'
+        
         lunghezza = lunghezza-1
         if lunghezza == -1:
-            return
+            print(testoCriptato[::-1])
         
 
 
 
-
-
-
-
-
-print(cripta('andrea',3))
+cripta('Andrea',3)
         

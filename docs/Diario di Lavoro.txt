@@ -17,3 +17,5 @@ ale susami mo mi so svegliato ho messo in carica il telefono sta notte ma non si
 11:00 ho visto che il islower delle lettere minuscole è errato
 11:30 sto corregendo il programma
 12:00 mi sono appena accorto che le lettere le stampa su file diverse quindi devo cambiare i print in non so cosa. Return? 
+12:30 Non ho idea di come potrei fare
+13:00 finito

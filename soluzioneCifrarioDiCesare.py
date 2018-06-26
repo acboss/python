@@ -38,5 +38,3 @@ if __name__ == '__main__':
     print(rotate_word('sleep', 9))
 
 
-print(ord('a'))
-print(ord('z'))
