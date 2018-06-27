@@ -4,9 +4,9 @@ fin.readline() #legge una riga e va a capo se si riscrive legge la riga successi
 
 riga = fin.readline()
 parola = riga.strip()
-parola #se si vuole togliere lo \n
+print(parola) #se si vuole togliere lo \n
 
-fin = open('words.txt')
-for riga in fin:
-    parola = riga.strip()
-    print(parola) #stampa tutte le parole una per riga
+#fin = open('words.txt')
+#for riga in fin:
+#    parola = riga.strip()
+#    print(parola) #stampa tutte le parole una per riga

@@ -1,3 +1,4 @@
+
 9:00 inizio
 9:30 lettura e analisi testo
 10:00 prove sul programma numeroMaiuscole che non svolge la sua funzione
@@ -24,3 +25,4 @@ ale susami mo mi so svegliato ho messo in carica il telefono sta notte ma non si
 9:00 inizio
 9:30 lettura libro con dovute prove richieste
 10:00 ale e dalle dieci fino alle 11 che sto col dito premuto per copiare tutto words.txt ma mi si è tolto il dito e un altra ora col dito  premuto non ci riesco
+11:00 non capisco perchè non funziona
