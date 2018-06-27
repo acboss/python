@@ -1,26 +1,21 @@
 fin = open('words.txt')
-
-
-def senzaE(parola):
+def senzaLetteraScelta(parola,letteraScelta):
     i = 0
     lunghezza = (len(parola))-1
-    while i < lunghezza:
+    while i <= lunghezza:
         a = parola[lunghezza]
-        if ord(a) == 69 or ord(a) == 101:
+        if ord(a) == ord(letteraScelta):
             return False
         else:
             lunghezza = lunghezza-1
-
     return True
 
 
-def trovaLeE():
-
-
+def evitaLaLetteraScelta():
     for line in fin:
         parola = line.strip()
-        if senzaE(parola):
+        if senzaLetteraScelta(parola,LetteraScelta):
             print(parola)
 
-
-trovaLeE()
+LetteraScelta = input()
+evitaLaLetteraScelta()
