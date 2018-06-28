@@ -37,3 +37,5 @@ ale susami mo mi so svegliato ho messo in carica il telefono sta notte ma non si
 11:30 funziona
 13:00 sono stato fino ad adesso ad aiutare mia madre a caricare e scaricare le cose
 14:00 sto leggendo il libro
+16:00 inizio
+16:24 sto cercando di capire come creare una funzione che faccia un sommma coumulativa di una lista es [1,2,3] stampa [1,3,6]
