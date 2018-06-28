@@ -6,5 +6,5 @@ def somma_comulata(numeri):
         sommaComulata.append(totale)
     return sommaComulata
 
-numeri = [3,2]
+numeri = [1,2,3]
 print(somma_comulata(numeri))
