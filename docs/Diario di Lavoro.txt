@@ -40,4 +40,5 @@ ale susami mo mi so svegliato ho messo in carica il telefono sta notte ma non si
 16:00 inizio
 16:30 sto cercando di capire come creare una funzione che faccia un sommma coumulativa di una lista es [1,2,3] stampa [1,3,6]
 17:00 ho capito come fare
-17:30 dovo fare un programma che nidifichi una somma ma non ho idea di cosa significhi
+17:13 dovo fare un programma che nidifichi una somma ma non ho idea di cosa significhi ho sbagliato perchè lo inserico prima l' orariio :) comunque risolto
+
