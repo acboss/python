@@ -4,7 +4,7 @@ fin = open('words.txt')
 def senzaE(parola):
     i = 0
     lunghezza = (len(parola))-1
-    while i < lunghezza:
+    while i <= lunghezza:
         a = parola[lunghezza]
         if ord(a) == 69 or ord(a) == 101:
             return False
