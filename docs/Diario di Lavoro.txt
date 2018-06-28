@@ -41,4 +41,6 @@ ale susami mo mi so svegliato ho messo in carica il telefono sta notte ma non si
 16:30 sto cercando di capire come creare una funzione che faccia un sommma coumulativa di una lista es [1,2,3] stampa [1,3,6]
 17:00 ho capito come fare
 17:13 dovo fare un programma che nidifichi una somma ma non ho idea di cosa significhi ho sbagliato perchè lo inserico prima l' orariio :) comunque risolto
+17:30 ho fatto gli funzioni una che toglie i valori in mezzo ad una lista un altra che stampa true o false in base se i valori dentro una lista sono in ordina  una che dice se si tratta di un anagramma
+17:30 adesso sto cercando di capire come crearne un ache controlli se ha dublicati al interno di una lista
 
