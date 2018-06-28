@@ -43,4 +43,5 @@ ale susami mo mi so svegliato ho messo in carica il telefono sta notte ma non si
 17:13 dovo fare un programma che nidifichi una somma ma non ho idea di cosa significhi ho sbagliato perchè lo inserico prima l' orariio :) comunque risolto
 17:30 ho fatto gli funzioni una che toglie i valori in mezzo ad una lista un altra che stampa true o false in base se i valori dentro una lista sono in ordina  una che dice se si tratta di un anagramma
 17:30 adesso sto cercando di capire come crearne un ache controlli se ha dublicati al interno di una lista
+18:00 mi sono arreso ho visto dalle soluzioni
 
