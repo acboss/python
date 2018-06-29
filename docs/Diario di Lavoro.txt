@@ -45,3 +45,6 @@ ale susami mo mi so svegliato ho messo in carica il telefono sta notte ma non si
 17:30 adesso sto cercando di capire come crearne un ache controlli se ha dublicati al interno di una lista
 18:00 mi sono arreso ho visto dalle soluzioni
 
+9:00 inizio
+9:30 sto studiando una funzione per calcolare la probabilità che ci siano due persone che compiono gli anni lo stesso giorno in un grupo
+
