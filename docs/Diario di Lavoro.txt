@@ -48,3 +48,5 @@ ale susami mo mi so svegliato ho messo in carica il telefono sta notte ma non si
 9:00 inizio
 9:30 sto studiando una funzione per calcolare la probabilità che ci siano due persone che compiono gli anni lo stesso giorno in un gruppo
 10:00 ancora 
+10:30 sto ancora vedendo di farlo ma anche dalle soluzioni non ci capisco nulla
+11:00 scusa mi so scordato di committare una soluzione l'ho trovata ma non è quello che vuole l'esercizio
